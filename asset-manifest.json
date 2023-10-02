@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/server-workout-list/static/css/main.964fdded.css",
+    "main.js": "/server-workout-list/static/js/main.c0004cf9.js",
+    "index.html": "/server-workout-list/index.html",
+    "main.964fdded.css.map": "/server-workout-list/static/css/main.964fdded.css.map",
+    "main.c0004cf9.js.map": "/server-workout-list/static/js/main.c0004cf9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964fdded.css",
+    "static/js/main.c0004cf9.js"
+  ]
+}
