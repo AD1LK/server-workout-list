@@ -10,6 +10,6 @@
 
 ![React drawio](https://user-images.githubusercontent.com/95390091/174445624-c900baf7-b1f9-419c-9679-f1ce26300fd9.png)
 
-## Hosted Project
+## Hosted Project: https://ad1lk.github.io/server-workout-list/
 
 ## Server code: https://codesandbox.io/p/sandbox/server-workout-list-6gvgpx
