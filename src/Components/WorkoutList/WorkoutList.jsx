@@ -1,4 +1,6 @@
-import React from 'react'; 
+import React from 'react';
+import './WorkoutItem.css';
+import { Button } from 'reactstrap'; 
 
  
 function WorkoutItem(props) { 
@@ -8,9 +10,9 @@ function WorkoutItem(props) {
     } 
  
     return ( 
-        <li> 
+        <li className="workout-item"> 
             { props.workout } ({props.quantity})  
-            <button onClick={deleteClicked}>DELETE</button> 
+            <Button color="primary" onClick={deleteClicked}>DONE</Button> 
         </li> 
     ); 
 }  
@@ -25,5 +27,5 @@ export default function WorkoutList({ items, deleteWorkout }) {
             deleteWorkout={deleteWorkout} />
     ); 
 
-    return <ul>{ItemsJsx}</ul>; 
+    return <ul className="workout-list-container">{ItemsJsx}</ul>; 
 } 

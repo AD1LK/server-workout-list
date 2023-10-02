@@ -1,5 +1,7 @@
 import React, {useState} from 'react'; 
- 
+import './WorkoutForm.css';
+import { Button } from 'reactstrap';
+
 export default function WorkoutForm(props) { 
     const [workout, setWorkout] = useState(''); 
     const [num, setNum] = useState(0); 
@@ -22,24 +24,30 @@ export default function WorkoutForm(props) {
 
  
     return ( 
-        <form action="#" method="POST" onSubmit={handleSubmit}> 
-            <label htmlFor="workout"></label> 
+        <form className="workout-form" action="#" method="POST" onSubmit={handleSubmit}> 
+            <label className="input-label" htmlFor="workout">Workout</label> 
             <input  
-                type="text"  
+                type="text"
+                className="workout-input"  
                 id="workout"  
                 name="workout"  
                 value={workout}  
-                onChange={handleWorkoutChange}  
-                required /> 
-            <label htmlFor="quantity"></label> 
+                onChange={handleWorkoutChange}
+                placeholder="Workout"
+                maxLength={30}  
+                required />
+            <label className="input-label" htmlFor="quantity">Number of reps</label> 
             <input  
-                type="number"  
+                type="number"
+                className="workout-input"  
                 id="quantity"  
                 name="quantity"  
                 value={num}  
-                onChange={handleQuantityChange}  
-                required /> 
-            <button type="submit">Add</button> 
+                onChange={handleQuantityChange}
+                min="0"
+                max="1000"  
+                required />
+            <Button type="submit">Add</Button> 
         </form> 
     ); 
 } 
