@@ -12,7 +12,7 @@ function WorkoutItem(props) {
     return ( 
         <li className="workout-item"> 
             { props.workout } ({props.quantity})  
-            <Button class="del-button btn btn-primary" color="primary" onClick={deleteClicked}>DONE</Button> 
+            <Button className="del-button btn btn-primary" color="primary" onClick={deleteClicked}>DONE</Button> 
         </li> 
     ); 
 }  

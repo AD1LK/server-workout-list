@@ -34,7 +34,7 @@ export default function WorkoutForm(props) {
                 value={workout}  
                 onChange={handleWorkoutChange}
                 placeholder="Workout"
-                maxLength={20}  
+                maxLength={15}  
                 required />
             <label className="input-label" htmlFor="quantity">Number of reps</label> 
             <input  
@@ -47,7 +47,7 @@ export default function WorkoutForm(props) {
                 min="0"
                 max="1000"  
                 required />
-            <Button class="add-button btn btn-primary"  color="primary" type="submit">Add Workout</Button> 
+            <Button className="add-button btn btn-primary"  color="primary" type="submit">Add Workout</Button> 
         </form> 
     ); 
 }
