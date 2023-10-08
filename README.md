@@ -8,7 +8,8 @@
 
 ##  Wireframe
 
-![React drawio](https://user-images.githubusercontent.com/95390091/174445624-c900baf7-b1f9-419c-9679-f1ce26300fd9.png)
+![workout-app-server](https://github.com/AD1LK/server-workout-list/assets/95390091/f299a50b-5f0c-4735-b9ab-f0ed2614a2ae)
+
 
 ## Hosted Project: https://ad1lk.github.io/server-workout-list/
 
