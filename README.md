@@ -8,7 +8,8 @@
 
 ##  Wireframe
 
-![workout-app-server](https://github.com/AD1LK/server-workout-list/assets/95390091/f299a50b-5f0c-4735-b9ab-f0ed2614a2ae)
+![workout-app-server](https://github.com/AD1LK/server-workout-list/assets/95390091/55442d3f-426c-45b5-a21a-fed7210dedae)
+
 
 
 ## Hosted Project: https://ad1lk.github.io/server-workout-list/
